@@ -16,10 +16,6 @@ header{
          
 }
 
-section{
-    
-}
-
 div.menu {
     display:flex;
     justify-content:space-between;
@@ -64,6 +60,13 @@ nav a {
 nav a:hover{
     color: white;
     
+}
+
+footer{
+    background-color: blue;
+    color: white;
+    text-align: center;
+
     
 }
 

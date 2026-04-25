@@ -5,27 +5,65 @@
     padding: 0px;
 }
 body{
-    background-color: antiquewhite;
+    background-color: rgb(159, 144, 126);
     font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
-   
+    background-color: rgb(136, 118, 95);
+    margin-left: 2px;
+    margin-right: 2px;
+         
+}
+
+section{
+    
+}
+
+div.menu {
+    display:flex;
+    justify-content:space-between;
+    float:right;
+    margin-top: 20px;
+}
+div.foto{
+    width:150px;
+    height:150px;
+    background-color: rgb(41, 41, 65);
+    border-radius:80px 80px;
+    margin-left: 7px;
+    margin-right:7px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+div.caixa{
+    background-color: rgb(177, 123, 114);
+    display:flex;
+    margin-left: 2px;
+    margin-right:2px ;
    
 }
 
-header ul{
+div.painel{
+    background-color: rgb(45, 45, 69);
+    color: rgb(249, 249, 249);
     display: flex;
-    list-style: none;
+    position: relative;
+
     
     
 }
 
-.menu{
-    background-color:burlywood;
+
+nav a {
+    text-decoration: none;
+    margin-right:10px;
     
 }
 
-
-
+nav a:hover{
+    color: white;
+    
+    
+}
 
